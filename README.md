@@ -10,7 +10,7 @@ The function has uncertain number of arguments. All minor arguments are the argu
   
 Some classes of functions can return a result. ThisCall function can return the result as a pointer. You can use the type conversion, to get the result of the correct type.
  
-TThisCall type is needed for tricking the compiler, which prohibits the direct use of "varargs" directive. By assigning this type of variable, we can call it using the dynamic number of arguments. This directive works both on "register", and the "stdcall/pascal/cdecl" agreements.
+TThisCall type is needed for tricking the compiler, which prohibits the direct use of "varargs" directive. By assigning this type of variable, we can call it using the dynamic number of arguments. This directive works both on "register", and the "stdcall/pascal/cdecl" conventions.
 
 # RU
 
