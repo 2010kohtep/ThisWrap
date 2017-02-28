@@ -5,7 +5,8 @@ This module allows you to call functions of thiscall Convention without any hass
 The main function of the module - "__ThisCall", which serves as a universal wrapper for all functions of the convention. The main args:
  
   * PClass - a pointer to the class where the function is located.
-  * PFunc - a pointer to a function which is necessary to be called. 
+  * PFunc - a pointer to a function which is necessary to be called.<br />
+
 The function has uncertain number of arguments. All minor arguments are the arguments for the function, which is going to be called.
   
 Some classes of functions can return a result. ThisCall function can return the result as a pointer. You can use the type conversion, to get the result of the correct type.
@@ -19,7 +20,8 @@ TThisCall type is needed for tricking the compiler, which prohibits the direct u
 Главная функция модуля - "__ThisCall", которая и служит универсальной оберткой для всех функций данной конвенции.
 Основные аргументы:
   * PClass - указатель на класс, в котором располагается функция.
-  * PFunc - указатель на функцию, которая должна быть вызвана.
+  * PFunc - указатель на функцию, которая должна быть вызвана.<br />
+
 Функция имеет переменное количество аргументов. Все побочные аргументы являются аргументами для функции, которая планируется быть вызвана.
 
 Некоторые функции классов могут возвращать результат. ThisCall функция способна вернуть этот результат в виде указателя. Можно использовать преобразование типов, чтобы получить результат нужного типа.
